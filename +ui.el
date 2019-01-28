@@ -8,14 +8,6 @@
                            :size 15
                            :powerline-scale 1.1))
 
-;; Title bar setup
-(when IS-MAC
-    (progn
-      (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
-(add-to-list 'default-frame-alist '(ns-appearance . dark))))
-
-(setq ns-use-proxy-icon nil)
-
 ;; Show trailing white spaces
 (setq show-trailing-whitespace t)
 
