@@ -1,7 +1,7 @@
 ;;; ~/.doom.d/+ui.el -*- lexical-binding: t; -*-
 
 ;; Theme
-(setq doom-theme 'doom-vibrant)
+(setq doom-theme 'doom-dracula)
 
 ;; Font
 (setq doom-font (font-spec :family "Iosevka"

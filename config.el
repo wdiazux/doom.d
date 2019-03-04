@@ -51,7 +51,13 @@
 (after! web-mode
 (add-hook 'web-mode-hook #'flycheck-mode))
 
+;; Twitter
+(after! twittering-mode
+  (setq twittering-icon-mode t))
+
 (load! "+ui")
 (load! "+os")
 (load! "+completion")
 (load! "+bindings")
+(load! "+ranger")
+(load! "+nvm")
